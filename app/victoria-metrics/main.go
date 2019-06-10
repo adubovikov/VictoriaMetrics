@@ -14,7 +14,7 @@ import (
 	"github.com/VictoriaMetrics/VictoriaMetrics/lib/procutil"
 )
 
-var httpListenAddr = flag.String("httpListenAddr", ":8428", "TCP address to listen for http connections")
+var httpListenAddr = flag.String("httpListenAddr", ":8427", "TCP address to listen for http connections")
 
 func main() {
 	flag.Parse()
